@@ -1,0 +1,747 @@
+
+    [
+            {
+                "slot": "Muzzle",
+                "_id": "m1",
+                "name": "Lightweight Suppressor",
+                "effects": {
+                    "minimapVisibilityRange": 24,
+                    "minimapVisibilityDuration": -0.5
+                }
+            },
+            {
+                "slot": "Muzzle",
+                "_id": "m2",
+                "name": "Muzzle Booster",
+                "effects": {
+                    "rateOfFire": 0.025,
+                    "recoil": {"vertical": 0.1, "horizontal": 0.1}
+                }
+            },
+            {
+                "slot": "Muzzle",
+                "_id": "m3",
+                "name": "Barrel Extender",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": 0.1
+                        },
+                        {
+                            "range": 2,
+                            "modifier": 0.1
+                        }
+                    ],
+                    "sprintToFire": 0.1,
+                    "recoil": {"recovery": -0.1}
+                }
+            },
+            {
+                "slot": "Muzzle",
+                "_id": "m4",
+                "name": "Muzzle Break",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": -0.05
+                        },
+                        {
+                            "range": 2,
+                            "modifier": -0.05
+                        }
+                    ],
+                    "recoil": {"horizontal": -0.07}
+                }
+            },
+            {
+                "slot": "Muzzle",
+                "_id": "m5",
+                "name": "Compensator",
+                "effects": {
+                    "recoil": {"vertical": -0.07},
+                    "adsTime": 0.1,
+                    "aimStability": -0.05
+                }
+            },
+            {
+                "slot": "Muzzle",
+                "_id": "m6",
+                "name": "Suppressor",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": -0.1
+                        },
+                        {
+                            "range": 2,
+                            "modifier": -0.1
+                        }
+                    ],
+                    "minimapVisibilityRange": 0,
+                    "minimapVisibilityDuration": -1
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b1",
+                "name": "Recon",
+                "effects": {
+                    "minimapVisibilityRange": 24,
+                    "minimapVisibilityDuration": -0.5,
+                    "adsTime": -0.05,
+                    "moveSpeed": -0.025
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b2",
+                "name": "Stabilizing",
+                "effects": {
+                    "recoil": {"vertical": -0.025, "horizontal": -0.025},
+                    "sprintToFire": 0.05,
+                    "adsMoveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b3",
+                "name": "Rapid Fire",
+                "effects": {
+                    "rateOfFire": 0.05,
+                    "recoil": {"vertical": 0.2, "horizontal": 0.2}
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b4",
+                "name": "Heavy",
+                "effects": {
+                    "damage": 0.05,
+                    "rateOfFire": -0.1
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b5",
+                "name": "Stealth",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": 0.1
+                        },
+                        {
+                            "range": 2,
+                            "modifier": 0.1
+                        }
+                    ],
+                    "minimapVisibilityRange": 0,
+                    "minimapVisibilityDuration": -1,
+                    "rateOfFire": -0.025,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b6",
+                "name": "Lightweight",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": -0.1
+                        },
+                        {
+                            "range": 2,
+                            "modifier": -0.1
+                        }
+                    ],
+                    "adsTime": -0.15,
+                    "moveSpeed": 0.05
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b7",
+                "name": "Chrome Lined",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": 0.2
+                        },
+                        {
+                            "range": 2,
+                            "modifier": 0.2
+                        }
+                    ],
+                    "moveSpeed": -0.05,
+                    "adsTime": 0.15
+                }
+            },
+            {
+                "slot": "Barrel",
+                "_id": "b8",
+                "name": "Choke",
+                "effects": {
+                    "dmgRanges": [
+                        {
+                            "range": 1,
+                            "modifier": 0.15
+                        },
+                        {
+                            "range": 2,
+                            "modifier": 0.15
+                        }
+                    ],
+                    "hipfire": -0.05,
+                    "sprintToFire": 0.15
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f1",
+                "name": "Angled Grip",
+                "effects": {
+                    "aimStability": 0.15,
+                    "recoil": {"horizontal": -0.05},
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f2",
+                "name": "Superlight Grip",
+                "effects": {
+                    "adsTime": -0.1,
+                    "recoil": {"recovery": -0.1},
+                    "moveSpeed": 0.025
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f3",
+                "name": "Vertical Grip",
+                "effects": {
+                    "adsTime": 0.05,
+                    "recoil": {"vertical": -0.1},
+                    "adsMoveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f4",
+                "name": "Tactical Grip",
+                "effects": {
+                    "adsTime": -0.05,
+                    "recoil": {"recovery": 0.35},
+                    "adsMoveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f5",
+                "name": "Small Vertical Grip",
+                "effects": {
+                    "adsTime": -0.05,
+                    "adsMoveSpeed": 0.10,
+                    "hipfire": 0.15
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f6",
+                "name": "PEQ-15 Laser",
+                "effects": {
+                    "hipfire": -0.4
+                }
+            },
+            {
+                "slot":"Front Grip",
+                "_id": "f10",
+                "name": "PEQ-15 Laser [Shotgun]",
+                "effects": {
+                    "hipfire": -0.2
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f7",
+                "name": "Handstop",
+                "effects": {
+                    "aimStability": 0.15,
+                    "recoil": {"vertical": -0.05},
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Front Grip",
+                "_id": "f8",
+                "name": "Leather-Wrapped Foregrip",
+                "effects": {
+                    "adsMoveSpeed": 0.15,
+                    "aimStability": 0.1,
+                    "sprintToFire": 0.05,
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot":"Front Grip",
+                "_id": "f9",
+                "name": "Pistol Grip",
+                "effects": {
+                    "sprintToFire": -0.1,
+                    "hipfire": -0.2,
+                    "recoil": {"horizontal": 0.05}
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o1",
+                "name": "Reflex Sight",
+                "effects": {}
+            },
+            {
+                "slot": "Optic",
+                "_id": "o2",
+                "name": "Holographic Sight",
+                "effects": {}
+            },
+            {
+                "slot": "Optic",
+                "_id": "o3",
+                "name": "3x Scope",
+                "effects": {
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o4",
+                "name": "ACOG Scope (4x)",
+                "effects": {
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o5",
+                "name": "Variable Zoom Scope (4x-8x)",
+                "effects": {
+                    "adsTime": 0.15,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o6",
+                "name": "CQBSS Scope (8x)",
+                "effects": {
+                    "adsTime": 0.20,
+                    "adsFlinch": 0.25
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o7",
+                "name": "Sniper Scope (12x)",
+                "effects": {
+                    "adsTime": 0.20,
+                    "adsFlinch": 0.25
+                }
+            },
+            {
+                "slot": "Optic",
+                "_id": "o8",
+                "name": "Red Dot Sight",
+                "effects": {}
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z0",
+                "name": "Quick Mag [M16]",
+                "effects": {
+                    "magSize": 6,
+                    "reloadTime": -0.15
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z1",
+                "name": "Quick Mag",
+                "effects": {
+                    "magSize": 5,
+                    "reloadTime": -0.15
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z2",
+                "name": "Lightweight Mag",
+                "effects": {
+                    "moveSpeed": -0.025,
+                    "reloadTime": -0.1,
+                    "extraMags": 4
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z3",
+                "name": "Extended Mag",
+                "effects": {
+                    "magSize": 15,
+                    "reloadTime": 0.15,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z4",
+                "name": "Fast Mag",
+                "effects": {
+                    "magSize": 5,
+                    "reloadTime": -0.4,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z20",
+                "name": "Fast Mag [M16]",
+                "effects": {
+                    "magSize": 6,
+                    "reloadTime": -0.4,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z5",
+                "name": "Extended Mag [Marksman]",
+                "effects": {
+                    "magSize": 10,
+                    "reloadTime": 0.15,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z6",
+                "name": "Extended Mag [M1911]",
+                "effects": {
+                    "magSize": 8,
+                    "reloadTime": 0.15,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z8",
+                "name": "Extended Mag [M9,D50]",
+                "effects": {
+                    "magSize": 3,
+                    "reloadTime": 0.15,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z9",
+                "name": "Extended Mag [M60,M249]",
+                "effects": {
+                    "magSize": 25,
+                    "reloadTime": 0.15,
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z10",
+                "name": "Extended Mag [RPK]",
+                "effects": {
+                    "magSize": 30,
+                    "reloadTime": 0.15,
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z11",
+                "name": "Extended Mag [Sniper]",
+                "effects": {
+                    "moveSpeed": -0.05,
+                    "magSize": 3,
+                    "reloadTime": 0.15
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z23",
+                "name": "Lightweight Mag [RPK & M60]",
+                "effects": {
+                    "moveSpeed": -0.025,
+                    "reloadTime": -0.10,
+                    "extraMags": 2
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z27",
+                "name": "Lightweight Mag [M249]",
+                "effects": {
+                    "moveSpeed": -0.025,
+                    "reloadTime": -0.40,
+                    "magSize": -40,
+                    "extraMags": 2
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z14",
+                "name": "Fast Mag [Marksman]",
+                "effects": {
+                    "magSize": 2,
+                    "reloadTime": -0.4,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z15",
+                "name": "Fast Mag [Pistol,Sniper,P90]",
+                "effects": {
+                    "reloadTime": -0.4,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z16",
+                "name": "Fast Mag [RPK]",
+                "effects": {
+                    "reloadTime": -0.4,
+                    "magSize": 5,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z25",
+                "name": "Fast Mag [M60]",
+                "effects": {
+                    "reloadTime": -0.4,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z28",
+                "name": "Fast Mag [M249]",
+                "effects": {
+                    "reloadTime": -0.75,
+                    "magSize": -40,
+                    "adsTime": 0.1,
+                    "adsFlinch": 0.1
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z17",
+                "name": "Quick Mag [Marksman]",
+                "effects": {
+                    "magSize": 2,
+                    "reloadTime": -0.15
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z18",
+                "name": "Quick Mag [Pistol,Shotgun,LMG,Sniper,P90]",
+                "effects": {
+                    "reloadTime": -0.15
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z24",
+                "name": "Quick Mag [M60]",
+                "effects": {
+                    "reloadTime": -0.25
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z22",
+                "name": "Extended Mag [AA-12,93r]",
+                "effects": {
+                    "magSize": 12,
+                    "reloadTime": 0.15,
+                    "moveSpeed": -0.05
+                }
+            },
+            {
+                "slot": "Magazine",
+                "_id": "z26",
+                "name": "Quick Mag [M60]",
+                "effects": {
+                    "magSize": -40,
+                    "reloadTime": -0.60
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g1",
+                "name": "Grip Tape",
+                "effects": {
+                    "recoil": {"vertical": -0.05, "recovery": 0.15},
+                    "adsTime": 0.05
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g2",
+                "name": "Fabric Grip",
+                "effects": {
+                    "adsTime": -0.1,
+                    "aimStability": 0.05,
+                    "recoil": {"recovery": -0.1}
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g3",
+                "name": "Leather-Wrapped Grip",
+                "effects": {
+                    "adsMoveSpeed": 0.1,
+                    "sprintToFire": 0.05
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g4",
+                "name": "Heavy Grip",
+                "effects": {
+                    "recoil": {"horizontal": -0.025},
+                    "adsFlinch": -0.1
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g5",
+                "name": "Lightweight Grip",
+                "effects": {
+                    "recoil": {"recovery": 0.25},
+                    "adsMoveSpeed": 0.025,
+                    "adsFlinch": 0.05
+                }
+            },
+            {
+                "slot": "Rear Grip",
+                "_id": "g6",
+                "name": "Quick Draw Grip",
+                "effects": {
+                    "sprintToFire": -0.1,
+                    "adsTime": -0.1,
+                    "aimStability": -0.15
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s1",
+                "name": "Padded Stock",
+                "effects": {
+                    "recoil": {"recovery": 0.15},
+                    "aimStability": 0.1,
+                    "adsFlinch": -0.05
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s10",
+                "name": "Padded Stock [DB]",
+                "effects": {
+                    "recoil": {"recovery": 0.15},
+                    "moveSpeed": -0.025
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s2",
+                "name": "Precision Stock",
+                "effects": {
+                    "recoil": {"vertical": -0.05, "horizontal": -0.05, "recovery": -0.15},
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s3",
+                "name": "Reinforced Stock",
+                "effects": {
+                    "adsFlinch": -0.25,
+                    "aimStability": 0.1,
+                    "adsMoveSpeed": -0.15
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s4",
+                "name": "Lightweight Stock",
+                "effects": {
+                    "adsMoveSpeed": 0.2,
+                    "moveSpeed": 0.025,
+                    "aimStability": -0.2,
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s5",
+                "name": "Removed Stock",
+                "effects": {
+                    "sprintToFire": -0.2,
+                    "moveSpeed": 0.05,
+                    "adsFlinch": 0.1,
+                    "recoil": {"vertical": 0.05, "horizontal": 0.05}
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s6",
+                "name": "Folded Stock",
+                "effects": {
+                    "moveSpeed": 0.05,
+                    "hipfire": 0.1
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s8",
+                "name": "Lightweight Stock [93R]",
+                "effects": {
+                    "adsMoveSpeed": 0.2,
+                    "aimStability": -0.2,
+                    "adsTime": 0.1
+                }
+            },
+            {
+                "slot": "Stock",
+                "_id": "s9",
+                "name": "Collapsed Stock",
+                "effects": {
+                    "moveSpeed": 0.05,
+                    "hipfire": 0.1
+                }
+            }
+        ]
