@@ -2,9 +2,12 @@
 
 # dependencies
 client/node_modules
-/node_modules
+server/node_modules
+node_modules
 /.pnp
 .pnp.js
+.env
+batchImport.js
 
 # testing
 /coverage
